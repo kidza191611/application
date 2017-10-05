@@ -5,6 +5,7 @@
     <title>PSU Application Form</title>
   </head>
   <body>
+    <center><img src="123.png" alt=""width="100" ></center>
     <div align="center">
       <h4>ใบสมัครคัดเลือกพนักงาน ม.อ.</h4>
     </div>
@@ -12,15 +13,36 @@
       <div align="center">
         <label for="txtposition">ตำแหน่ง</label>
         <label type="text" name="txtposition" />
+        <input type="text" name="txtposition"value="" />
       </div>
       <div>
-        <label for="txtorg">คณะหน่วยงานที่สมัคร</label>
-        <label type="text" name="txtorg" /><br />
+        <label for="txtorg">คณะ/หน่วยงานที่สมัคร</label>
+        <label type="text" name="txtorg"<label/>
+        <input type="text" name="org"value="" />
+      </div>
+      <div>
         <label for="txtsalary">เงินเดือนที่ต้องการ</label>
         <label type="text" name="txtsalary" />
+        <input type="text" name="salary"value="" />
+        <label for="txp">ลักษณะงาน</label>
+        <label for="radioลักษณะงาน">ลักษณะงาน</lebel>
+        <input type="radio" name="ลักษณะงาน"/>Full Time
+        <input type="radio" name="ลักษณะงาน"/>Part Time
       </div>
-      <p>
-        Test for github
-    </Form>
+      <b><h4>1.  ข้อมูลทั่วไป:</b>
+      <p>เลขที่บัตรประชาชน<input type="text" name="org"value="" /></p>
+      <p>ชื่อ <input type="text" name="org"value="" />
+        นามสกุล<input type="text" name="org"value="" /></p>
+      <P>เพศ <input type="radio" name="sex"/> ชาย
+        <input type="radio" name="sex"/> หญิง
+         วัน/เดือน/ปีเกิด <input type="text" name="date" /> อายุ <input type="text" name="old" /> ปี </p>
+      <b><h4>2.ภาษาอังกฤษ</b></br>
+      พูด <input type="radio" name="sp"/> ดีมาก <input type="radio" name="sp"/> ดี <input type="radio" name="sp"/> พอใช้ </br>
+      อ่าน <input type="radio" name="read"/> ดีมาก <input type="radio" name="read"/> ดี <input type="radio" name="read"/> พอใช้ </br>
+      เขียน <input type="radio" name="w"/> ดีมาก <input type="radio" name="w"/> ดี <input type="radio" name="w"/> พอใช้ </br>
+      <b><h4>3.ความรู้ทางคอมพิวเตอร์</b> <input type="text" name="com"/></br>
+      <b><h4>4.ผลงานทางวิชาการ</b> <input type="text" name="sucess"/></br>
+      <b><h4>5.ประสบการณ์พิเศษอื่นๆ</b>  <input type="text" name="anoter"/></br>
+      <input type="submit" value="submit"/>
   </body>
 </html>
